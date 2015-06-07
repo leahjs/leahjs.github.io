@@ -34,10 +34,6 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
   color: #00DDD8;
-
-}
-.homepg-text {
-  color: #FF606E;
 }
 
 p { 
@@ -376,7 +372,7 @@ a:focus {
 
 #footerwrap i {
 	font-size: 30px;
-	color: {{ site.colors.footer_content }};
+	/*color: {{ site.colors.footer_content }};*/
 	padding-right: 25px;
 }
 
