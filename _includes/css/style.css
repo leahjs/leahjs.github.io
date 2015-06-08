@@ -162,7 +162,7 @@ a:focus {
 .dmbutton:active,
 .dmbutton:focus{
 	color: #ffffff;
-	background-color: #222222;
+	background-color: #bfc9d3;
 	border-color: #ffffff;
 }
 .dmbutton {
@@ -358,8 +358,8 @@ a:focus {
 
 /* Footer */
 #footerwrap {
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	background: {{ site.colors.secondary }};
 }
 
@@ -368,6 +368,10 @@ a:focus {
 }
 
 #footerwrap h1 {
+  color: {{ site.colors.footer_content }};
+}
+
+#footerwrap h5 {
   color: {{ site.colors.footer_content }};
 }
 
