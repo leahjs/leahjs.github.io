@@ -161,21 +161,21 @@ a:focus {
 .dmbutton:hover,
 .dmbutton:active,
 .dmbutton:focus{
-	color: #ffffff;
-	background-color: #bfc9d3;
-	border-color: #ffffff;
+	/*color: #ffffff;*/
+	/*background-color: #bfc9d3;*/
+	/*border-color: #ffffff;*/
 }
 .dmbutton {
 	background:rgba(0, 0, 0, 0);
-	border: 1px solid #ffffff;
-	color: #ffffff;
+	/*border: 1px solid #ffffff;*/
+	/*color: #ffffff;*/
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
-	padding-top: 1.025rem;
+/*	padding-top: 1.025rem;
 	padding-right: 2.25rem;
 	letter-spacing:0.85px;
 	padding-bottom: 1.0875rem;
-	padding-left: 2.25rem;
+	padding-left: 2.25rem;*/
 	font-size: 1.55rem;
 	cursor: pointer;
 	font-weight: normal;
