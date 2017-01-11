@@ -17,14 +17,19 @@ nav {
   height: 80px;
   border-bottom: 1px solid rgba(63, 50, 80, 0.3);
 }
+nav::after{
+  clear: both;
+  content: " ";
+  display: none;
+  height: 0;
+}
 nav ul {
   width: 50%;
   list-style-type: none;
   float: right;
 }
 
-}
-nav li{
+nav li {
   display: inline;
   font-size: 30px;
 }
@@ -32,10 +37,13 @@ nav li{
 footer {
   background-color: #22252c;
 }
-footer ul {
 
+footer ul {
+  padding: 0;
 }
+
 footer li {
   display: inline;
-  color: white:
+  color: white;
+  padding: 10px
 }
