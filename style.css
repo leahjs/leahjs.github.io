@@ -32,18 +32,26 @@ nav ul {
 nav li {
   display: inline;
   font-size: 30px;
+  padding-right: 60px;
 }
 
 footer {
   background-color: #22252c;
+  height: 50px;
+}
+footer::after{
+  clear: both;
+  content: " ";
+  display: none;
+  height: 0;
 }
 
 footer ul {
-  padding: 0;
+  /*padding: 0;*/
 }
 
 footer li {
   display: inline;
   color: white;
-  padding: 10px
+  /*padding: 10px*/
 }
