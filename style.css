@@ -1,5 +1,7 @@
 body {
   font-family: 'Karla', sans-serif;
+  /*height: 100%;*/
+  margin: 0;
 }
 ul {list-style-type: none;}
 
@@ -8,15 +10,9 @@ ul {list-style-type: none;}
   margin: 0 auto;
 }
 
-.intro { margin: 0 auto;}
-.intro p {font-size: 30px; text-align: center;}
+/*.intro { margin: 0 auto;}*/
+/*.intro p {font-size: 30px; text-align: center;}*/
 
-nav {
-  width: 100%;
-  float: right;
-  height: 80px;
-  border-bottom: 1px solid rgba(63, 50, 80, 0.3);
-}
 .clearfix {
     overflow: auto;
 }
@@ -27,19 +23,37 @@ nav {
     display: table;
 }
 
+nav {
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid rgba(63, 50, 80, 0.3);
+  margin-bottom: 50px;
+}
+
+nav img {
+  height: 25px;
+  width: 25px;
+}
+
 nav ul {
   width: 50%;
   list-style-type: none;
   float: right;
 }
-nav ul:last-child {
+nav li:last-child {
   padding-right: 0;
 }
 
 nav li {
   display: inline;
   font-size: 30px;
-  padding-right: 60px;
+  padding-right: 40px;
+}
+
+nav li a {
+  color: #000;
+  font-size: 2em;
+  text-decoration: none;
 }
 
 footer {
