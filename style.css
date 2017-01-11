@@ -1,17 +1,41 @@
 body {
   font-family: 'Karla', sans-serif;
 }
+ul {list-style-type: none;}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.intro { margin: 0 auto;}
+.intro p {font-size: 30px;}
 
 nav {
-  width: 50%;
+  width: 100%;
   float: right;
   height: 80px;
-  display: inline;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #3f3250;
+  border-bottom: 1px solid rgba(63, 50, 80, 0.3);
+}
+nav ul {
+  width: 50%;
+  list-style-type: none;
+  float: right;
+}
+
 }
 nav li{
+  display: inline;
   font-size: 30px;
 }
 
-ul {list-style-type: none;}
+footer {
+  background-color: #22252c;
+}
+footer ul {
+
+}
+footer li {
+  display: inline;
+  color: white:
+}
