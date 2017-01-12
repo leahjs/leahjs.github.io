@@ -1,8 +1,8 @@
         $(document).ready(function(){
             $("a img").click(function(){
                $("body").css({ "overflow": "hidden" });
-               
-               $(this).click(function(){
+
+               $("html").click(function(){
                  $("body").css({ "overflow": "auto" });
                });
             });
