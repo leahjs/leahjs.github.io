@@ -38,7 +38,7 @@ ul {list-style-type: none; padding-left: 0;}
 
 nav {
   width: 100%;
-  height: 7em;
+  height: 35%;
   border-bottom: 1px solid rgba(63, 50, 80, 0.3);
   margin-bottom: 2em;
   padding-top: 2em;
@@ -75,6 +75,7 @@ nav li a:hover {
 footer {
   background-color: #22252c;
   height: 4em;
+  padding-top: 1.5em;
 }
 
 footer ul {
@@ -89,6 +90,7 @@ footer li {
   color: white;
   padding-right: 260px
 }
+section {display: inline-block;}
 footer section a {
   margin-right: 3em;
   width: calc((100% - 3em)  / 3);
