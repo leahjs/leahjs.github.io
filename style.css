@@ -53,7 +53,9 @@ nav ul {
   width: 50%;
   list-style-type: none;
   float: right;
+  padding-bottom: 1.3em;
 }
+
 nav li:last-child {
   padding-right: 0;
 }
@@ -77,6 +79,14 @@ footer {
   height: 4em;
   padding-top: 1.5em;
 }
+footer a {
+  font-size: 100%;
+  vertical-align: super;
+  margin: 0 19% 0 12.5%;
+  color: rgba(87, 107, 154, 0.66);
+  text-decoration: none;
+}
+
 
 footer ul {
   padding: 0;
@@ -91,10 +101,13 @@ footer li {
   padding-right: 260px
 }
 section {display: inline-block;}
+
 footer section a {
-  margin-right: 3em;
-  width: calc((100% - 3em)  / 3);
+  margin-right: 8em;
+  /*width: calc((100% - 3em)  / 3);*/
   max-width: 500px;
+  font-size: 2em;
+  color: rgba(87, 107, 154, 0.66);
 }
 footer section a:last-of-type{
   margin-right: 0;
