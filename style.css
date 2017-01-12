@@ -21,8 +21,10 @@ ul {list-style-type: none; padding-left: 0;}
   display: inline-block;
 }
 
+.inline { display: none;}
+
 .intro { padding-bottom: 20px;}
-.intro p {font-size: 30px; text-align: center;}
+.intro h1 {font-size: 30px; text-align: center;}
 
 .clearfix {
     overflow: auto;
