@@ -1,10 +1,9 @@
 * {box-sizing: border-box;}
 body {
   font-family: 'Karla', sans-serif;
-  /*height: 100%;*/
   margin: 0;
 }
-ul {list-style-type: none;}
+ul {list-style-type: none; padding-left: 0;}
 
 .container {
   width: 75%;
@@ -32,15 +31,15 @@ ul {list-style-type: none;}
 
 nav {
   width: 100%;
-  height: 80px;
+  height: 95px;
   border-bottom: 1px solid rgba(63, 50, 80, 0.3);
   margin-bottom: 50px;
   padding-top: 15px;
 }
 
 nav img {
-  height: 150px;
-  width: 150px;
+  height: 65px;
+  width: 65px;
 }
 
 nav ul {
