@@ -79,9 +79,10 @@ footer {
   height: 4em;
   padding-top: 1.2em;
 }
+footer a:hover {color:#FFF;}
 footer > a {
   font-size: 100%;
-  vertical-align: middle;
+  vertical-align: super;
   margin: 0 15% 0 12.5%;
   color: rgba(87, 107, 154, 0.66);
   text-decoration: none;
