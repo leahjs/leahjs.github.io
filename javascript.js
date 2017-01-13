@@ -7,3 +7,11 @@
         //        });
         //     });
         // });
+$.featherlight({
+    beforeOpen: function() {
+        document.body.style.overflow = 'hidden';
+    },
+    afterEnd: function() {
+        document.body.style.overflow = '';
+    }
+});
