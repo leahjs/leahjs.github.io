@@ -79,14 +79,13 @@ footer {
   height: 4em;
   padding-top: 1.2em;
 }
-footer a {
+footer > a {
   font-size: 100%;
   vertical-align: middle;
-  margin: 0 19% 0 12.5%;
+  margin: 0 15% 0 12.5%;
   color: rgba(87, 107, 154, 0.66);
   text-decoration: none;
 }
-
 
 footer ul {
   padding: 0;
@@ -103,7 +102,7 @@ footer li {
 section {display: inline-block;}
 
 footer section a {
-  margin-right: 6em;
+  margin-right: 10em;
   /*width: calc((100% - 3em)  / 3);*/
   max-width: 500px;
   font-size: 2em;
