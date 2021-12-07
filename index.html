@@ -1,308 +1,510 @@
-<!doctype html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
-<head>
-<meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Leah Suter's Portfolio</title>
+    <meta name="description" content="Leah Suter's Portfolio" />
 
-<!--
-••••••••••••••••••••••••
+    <link rel="stylesheet" href="css/style.css" />
 
-Powered by Type & Grids™
-www.typeandgrids.com
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
 
-••••••••••••••••••••••••
--->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/jpeg/leah-suter-monogram.jpeg"
+              alt="Leah Suter's Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <a href="./index.html">  
+            <span class="header__logo-sub">Leah Suter</span>
+          </a>
 
-<title>Leah Suter &mdash; Graphic Designer and Web Developer</title>
-<meta name="description" content="The Portfolio of Leah Suter">
-<meta name="author" content="Leah Suter">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
 
-<!-- CSS
-================================================================================================= -->
-<link rel="stylesheet" href="css/base.css">
-<link rel="stylesheet" href="css/themes/type_04.css">
-<link rel="stylesheet" href="css/themes/color_09.css">
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
 
-<!--[if lt IE 9]>
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Welcome to my portfolio</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            Hey, thank you for coming to visit my portfolio. 
+            Take a look around and tell me what you think. 
+            I welcome any and all feedback. All of the sites shown are sites I've personally worked on.
+          </p>
+        </div>
+        <div class="home-hero__cta">
+          <a href="./#projects" class="btn btn--bg">Projects</a>
+        </div>
+      </div>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a href="https://linkedin.com/in/leahsuter" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/linkedin-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://github.com/leahjs" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/github-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">About me</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                My name is Leah and I am a Frontend Web Developer located in Brooklyn, NY. 
+                I've worked for Constructive for about 6 years. 
+                We are a web design agency that work on WordPress websites primarily for social impact and higher education clients. 
+                Prior to Constructive I was a graphic designer.
+              </p>
+              <p class="about__content-details-para">
+                I love web development and I want to continue pursuing 
+                it as a career but I did find a new love for digital marketing. 
+                I am currently taking classes and pursing certifications. 
+                Feel free to contact me, my email is <a href="mailto:leahj.suter@gmail.com">leahj.suter@gmail.com</a>. My LinkedIn is <a href="https://linkedin.com/in/leahsuter">https://linkedin.com/in/leahsuter</a>
+               and my GitHub is <a href="https://github.com/leahjs">https://github.com/leahjs</a>.
+              </p>
+            </div>
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">SASS/SCSS</div>
+              <div class="skills__skill">Git</div>
+              <div class="skills__skill">Shopify</div>
+              <div class="skills__skill">WordPress</div>
+              <div class="skills__skill">Facebook Ads</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+            These are some of the projects I've worked on during my time at Constructive.
+          </span>
+        </h2>
 
-<!-- Favicons
-================================================================================================= -->
-<link rel="shortcut icon" href="images/favicons/leahs-logo_apple-touch-icon.ico">
-<link rel="apple-touch-icon" href="images/favicons/leahs-logo_apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="images/favicons/leahs-logo_apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="images/favicons/leahs-logo_apple-touch-icon-114x114.png">
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/clients/aqli-epic.png"
+                alt="AQLI website screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">AQLI</h3>
+              <p class="projects__row-content-desc">
+                Produced by the Energy Policy Institute at the University of Chicago (EPIC), 
+                The Air Quality Life Index, or AQLI, 
+                converts air pollution concentrations into their impact on life expectancy.
+              </p>
+              <a
+                href="./project-aqli.html"
+                class="btn btn--med btn--theme dynamicBgClr"
 
-<!-- JS
-================================================================================================= -->
-<script src="js/libs/modernizr.min.js"></script>
-<script src="js/libs/jquery-1.8.3.min.js"></script>
-<script src="js/libs/jquery.easing.1.3.min.js"></script>
-<script src="js/libs/jquery.fitvids.js"></script>
-<script src="js/script.js"></script>
+                >Case Study</a
+              >
+            </div>
+          </div>
 
-</head>
-<body>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/clients/dlf.png"
+                alt="DLF website screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">DLF</h3>
+              <p class="projects__row-content-desc">
+                We educate and raise awareness of the proven impact of TM and its psychological and physical benefits. 
+              </p>
+              <a
+                href="./project-dlf.html"
+                class="btn btn--med btn--theme dynamicBgClr"
 
-<!-- Write preloader to page - this allows the site to load for users with JS disabled -->
-<script type="text/javascript">
-	document.write("<div id='sitePreloader'><div id='preloaderImage'><img src='images/site_preloader.gif' alt='Preloader' /></div></div>");
-</script>
+                >Case Study</a
+              >
+            </div>
+          </div>
 
-<div class="container">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/clients/clua.png"
+                alt="CLUA website screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">CLUA</h3>
+              <p class="projects__row-content-desc">
+                The Climate and Land Use Alliance is a collaborative of foundations 
+                that believe forests and sustainable land 
+                use are an essential part of the global response to climate change.
+              </p>
+              <a
+                href="./project-clua.html"
+                class="btn btn--med btn--theme dynamicBgClr"
 
-	<!-- Header begins ========================================================================== -->
-	<header class="sixteen columns">
-		<div id="logo">
-			<h1>Leah Suter</h1>
-			<h2>Graphic Designer and Web Developer</h2>
-			<!-- <img src="images/logo.png" width="275" height="35" alt="Logo" /> -->
-		</div>
-		<nav>
-			<ul>
-				<li><button id="workPage">Work</button></li>
-				<li><button id="aboutPage">About</button></li>
-			</ul>
-		</nav>
-		<hr />
-	</header>
-	<!-- Header ends ============================================================================ -->
+                >Case Study</a
+              >
+            </div>
+          </div>
 
-	<!-- Work page begins ======================================================================= -->
-	<div id="work">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/clients/cacf.png"
+                alt="CACF website screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">CACF</h3>
+              <p class="projects__row-content-desc">
+                They are an organization in Virginia that is committed to improving the quality of life for those living and 
+                working in the city of Charlottesville and the counties of 
+                Albemarle, Buckingham, Fluvanna, Greene, Louisa, Nelson, and Orange.
+              </p>
+              <a
+                href="./project-cacf.html"
+                class="btn btn--med btn--theme dynamicBgClr"
 
-		<div id="overview" class="sixteen columns">
-			<h3>My name is Leah and this is my portfolio page look around and enjoy!</h3>
-			<hr />
-		</div>
+                >Case Study</a
+              >
+            </div>
+          </div>
 
-		<div class="eight columns" id="col1">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/clients/carmel-hill.png"
+                alt="Carmel Hill website screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Carmel Hill</h3>
+              <p class="projects__row-content-desc">
+                While telling its own story was important, 
+                Carmel Hill also wanted a website that would bring its mission to 
+                life and generate support by sharing the stories of students and educators.
+              </p>
+              <a
+                href="./project-carmel-hill.html"
+                class="btn btn--med btn--theme dynamicBgClr"
 
-			<!-- Project 1 begins ================================================================= -->
-			<div class="project">
+                >Case Study</a
+              >
+            </div>
+          </div>
 
-				<div class="projectThumbnail">
-					<svg class="thumbnailMask"></svg>
-					<div class="projectThumbnailHover">
-						<h4>Columbus Travel Branding</h4>
-						<h5>Corporate Identity</h5>
-					</div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/clients/constructive.png"
+                alt="Constructive website screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Constructive</h3>
+              <p class="projects__row-content-desc">
+                Our agency website. We needed a redesign and a way to display our talents and 
+                knowledge. 
+                I built the first iteration of the site but 
+                since then I haven't worked on it except for minor maintenance issues.
+              </p>
+              <a
+                href="./project-constructive.html"
+                class="btn btn--med btn--theme dynamicBgClr"
 
-					<img src="images/projects/project_01_desaturated.jpg" alt="Project 01" class="thumbnailImage" />
-				</div>
+                >Case Study</a
+              >
+            </div>
+          </div>
 
-				<div class="projectInfo">
-					<h4>Columbus Travel Branding</h4>
-					<div class="projectNavCounter"></div>
-					<!-- <div class="projectNav"> -->
-						<!-- <div class="projectNavEnlarge"><button class="enlargeButton" onClick="window.location.href='projects/project_01/index.html'">View full-size</button></div>
-						<div class="projectNavClose"><button class="closeButton">Close</button></div>
-						<div class="projectNavButtons"><button class="prev"></button><button class="next"></button></div> -->
-					<!-- </div> -->
-					<p>
-						This was a project in my corporate identity class. We were assigned a company and was told to make a graphic standards manual. I used the common way finding symbol and a ship commonly associted with Christopher Columbus.
-					</p>
-					<!-- <ul>
-						<li><strong>Client:</strong> Wernham Hogg</li>
-						<li><strong>Role:</strong> Art Direction, Photography, Illustration</li>
-						<li><strong>Year:</strong> 2013</li>
-					</ul> -->
-				</div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/clients/etesite.png"
+                alt="Eye To Eye website screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Eye To Eye</h3>
+              <p class="projects__row-content-desc">
+                Their mission is to improve the educational 
+                experience and outcomes of every student who learns differently.
+              </p>
+              <a
+                href="./project-etesite.html"
+                class="btn btn--med btn--theme dynamicBgClr"
 
-			</div>
-			<!-- Project ends =================================================================== -->
+                >Case Study</a
+              >
+            </div>
+          </div>
 
-			<!-- Project 2 begins ================================================================= -->
-			<div class="project">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/clients/sfoa.png"
+                alt="SFOA website screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">SFOA</h3>
+              <p class="projects__row-content-desc">
+                SFA’s brand is steeped in tradition and history. To honor this important narrative, 
+                the foundation’s new website tells the organization’s story with a rich, 
+                visual history that embodies Sephardic oral tradition. 
+              </p>
+              <a
+                href="./project-sfoa.html"
+                class="btn btn--med btn--theme dynamicBgClr"
 
-				<div class="projectThumbnail">
-					<svg class="thumbnailMask"></svg>
-					<div class="projectThumbnailHover">
-						<h4>Bahamarine</h4>
-						<h5>Corporate Identity</h5>
-					</div>
-					<img src="images/projects/project_02_desaturated.jpg" alt="Project 02" class="thumbnailImage" />
-				</div>
+                >Case Study</a
+              >
+            </div>
+          </div>
 
-				<div class="projectInfo">
-					<h4>Bahamarine</h4>
-					<div class="projectNavCounter"></div>
-					<!-- <div class="projectNav">
-					</div> -->
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/clients/rhodium.png"
+                alt="Rhodium website screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Rhodium</h3>
+              <p class="projects__row-content-desc">
+                To build a shared vision through our visual design process, 
+                we produced concept boards that gave Rhodium’s team 
+                different design concepts to evaluate. 
+              </p>
+              <a
+                href="./project-rhodium.html"
+                class="btn btn--med btn--theme dynamicBgClr"
 
-					<p>
-						Bahamarine is branding for an adult aquarium of rare and exotic sealife that I did for my culmination project in college. I designed a logo, a magazine and aquarium materials. The target audience was for adults in the marine biology field that wanted exposure to rare and exotic sealife in the Bahamas.
-					</p>
-				</div>
+                >Case Study</a
+              >
+            </div>
+          </div>
 
-			</div>
-			<!-- Project ends =================================================================== -->
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/clients/redirect.png"
+                alt="Redirect website screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">reDirect</h3>
+              <p class="projects__row-content-desc">
+                reDirect provides nonprofits with coaching and resources 
+                that help them better understand and address a wide 
+                range of challenges in order to bring out the best in 
+                their people and realize the potential of their missions.
+              </p>
+              <a
+                href="./project-redirect.html"
+                class="btn btn--med btn--theme dynamicBgClr"
 
-			<!-- Project 3 begins ================================================================= -->
-			<div class="project">
+                >Case Study</a
+              >
+            </div>
+          </div>
 
-				<div class="projectThumbnail">
-					<svg class="thumbnailMask"></svg>
-					<div class="projectThumbnailHover">
-						<h4>Jezebel Logo</h4>
-						<h5>Corporate identity</h5>
-					</div>
-					<img src="images/projects/project_03_desaturated.jpg" alt="Project 03" class="thumbnailImage" />
-				</div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/clients/adamec.png"
+                alt="Shaun Adamec website screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Adamec</h3>
+              <p class="projects__row-content-desc">
+                Adamec Communications is an agency that works with 
+                mission-driven organizations. Not one our typical 
+                clients because Shaun Adamec is a friend of Matt the 
+                Founder of Constructive.
+              </p>
+              <a
+                href="./project-adamec.html"
+                class="btn btn--med btn--theme dynamicBgClr"
 
-				<div class="projectInfo">
-					<h4>Jezebel Logo</h4>
-					<div class="projectNavCounter"></div>
-					<!-- <div class="projectNav">
-					</div> -->
-					<p>
-						This was another assignment I had in my corporate identity class. I had to design a logo for a gothic jewelry company. The target audience is young adults in the gothic culture looking for jewelry.
-					</p>
-				</div>
+                >Case Study</a
+              >
+            </div>
+          </div>
 
-			</div>
-			<!-- Project ends =================================================================== -->
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/clients/opp-net.png"
+                alt="Opportunity Network website screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Opp Net</h3>
+              <p class="projects__row-content-desc">
+                OppNet was founded as a direct response to the 
+                inequitable structures of access, college opportunity, 
+                and professional mobility that disproportionately affect students 
+                of color and students from low-income communities.
+              </p>
+              <a
+                href="./project-opp-net.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >Case Study</a
+              >
+            </div>
+          </div>
+          
 
-			<!-- Project 4 begins ================================================================= -->
-			<div class="project">
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/leahsuter">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/leahjs">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Leah Suter</h4>
+            <p class="main-footer__short-desc">
+              Thank you for coming to visit my portfolio. Take a look around and tell me what you think. I welcome any and all feedback.
+            </p>
+          </div>
+        </div>
 
-				<div class="projectThumbnail">
-					<svg class="thumbnailMask"></svg>
-					<div class="projectThumbnailHover">
-						<h4>Ampersand Logo</h4>
-						<h5>Corporate Identity</h5>
-					</div>
-					<img src="images/projects/project_04_desaturated.jpg" alt="Project 04" class="thumbnailImage" />
-				</div>
+        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+        <div class="main-footer__lower">
+          &copy; Copyright 2021. Made by
+          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
+            >Ram Maheshwari</a
+          >
+        </div>
+      </div>
+    </footer>
 
-				<div class="projectInfo">
-					<h4>Ampersand Logo</h4>
-					<div class="projectNavCounter"></div>
-					<!-- <div class="projectNav">
-					</div> -->
-					<p>
-						In my print publication class, we had to design our own magazines. Since I love ampersands I named my magazine after that. I wanted to fuse the ampersand.
-					</p>
-				</div>
-
-			</div>
-			<!-- Project ends =================================================================== -->
-
-			<!-- Project 5 begins ================================================================= -->
-			<!-- <div class="project">
-
-				<div class="projectThumbnail">
-					<svg class="thumbnailMask"></svg>
-					<div class="projectThumbnailHover">
-						<h4>Urban Canvas</h4>
-						<h5>Press Kit Branding</h5>
-					</div>
-					<img src="images/projects/project_05_desaturated.jpg" alt="Project 05" class="thumbnailImage" />
-				</div>
-
-				<div class="projectInfo">
-					<h4>Urban Canvas</h4>
-					<div class="projectNavCounter"></div>
-					<div class="projectNav">
-					</div>
-					<p>
-						This is the cover of a Press Kit I did for the Community Partnerships department of the Department of Buildings in NYC. The project is called Urban Canvas to allow artists to design art for scaffolding for construction sites.
-					</p>
-				</div>
-
-			</div> -->
-			<!-- Project ends =================================================================== -->
-
-			<!-- Project 6 begins ================================================================= -->
-			<!-- <div class="project">
-
-				<div class="projectThumbnail">
-					<svg class="thumbnailMask"></svg>
-					<div class="projectThumbnailHover">
-						<h4>Project 06 Hover Title Goes Here</h4>
-						<h5>Optional Hover Subtitle</h5>
-					</div>
-					<img src="images/projects/project_06_desaturated.jpg" alt="Project 06" class="thumbnailImage" />
-				</div>
-
-				<div class="projectInfo">
-					<h4>Project 06 Title Goes Here</h4>
-					<div class="projectNavCounter"></div>
-					<div class="projectNav">
-						<div class="projectNavEnlarge"><button class="enlargeButton" onClick="window.location.href='projects/project_01/index.html'">View full-size</button></div>
-						<div class="projectNavClose"><button class="closeButton">Close</button></div>
-						<div class="projectNavButtons"><button class="prev"></button><button class="next"></button></div>
-					</div>
-					<p>
-						This is a description of the project.
-				</div>
-
-			</div> -->
-			<!-- Project ends =================================================================== -->
-
-		</div><!-- col1 -->
-
-		<!-- Even numbered projects are dynamically moved into this second column via JS -->
-		<div class="eight columns" id="col2">
-		</div>
-
-	</div>
-	<!-- Work page ends ========================================================================= -->
-
-	<!-- About page begins ====================================================================== -->
-	<div id="about">
-
-		<!-- Column 1 begins ==================================================================== -->
-		<div class="eight columns">
-
-			<h3>About Leah</h3>
-			<p>
-			Born and raised in Brooklyn, NY I always loved computers. I had my first computer at the age of 10 years old and fell in love with technology and design. I went to William H. Maxwell CTE High School to study business. To my surprise the curriculum changed from business to graphic design and that’s when I first learned graphic design. I fell in love with graphic design and decide to pursue it in college. I received a Bachelor’s in Technology at the New York City College of Technology in 2011. However while I was in HS I also had a passion for the web.
-			</p>
-			<p>
-			In 2007 the web wasn’t anything like it is today and I wanted to study web development. My good friend told me about the Flatiron School. I applied for the Web Development Fellowship and got in. It was really exciting as well as really hard but I got through it and I landed an apprenticeship at Constructive in NYC. During my apprenticeship I learned a plethora of technologies and was exposed to the real world of helping clients with professional websites. I learned PHP, WordPress, Drupal, Gulp, Sass, Client Relations and QA. I recently was hired as a Full-time Web Developer. If you have any questions or just want to chat you can email me at hey@leahjs.me or leahj.suter@gmail.com. Thank you.
-			</p>
-
-		</div>
-		<!-- Column 1 ends ====================================================================== -->
-
-		<!-- Column 2 begins ==================================================================== -->
-		<div class="eight columns">
-
-			<!-- <img src="projects/leahslogo.jpg" alt="About" /> -->
-
-			<ul class="linedList">
-				<li><strong>Location:</strong> Brooklyn, NY</li>
-				<li><strong>Email:</strong> <a href="mailto:hey@leahjs.me">hey@leahjs.me</a></li>
-				<!-- <li><strong>R&eacute;sum&eacute;:</strong> <a href="resume.pdf">resume.pdf</a></li> -->
-				<li><strong>Github:</strong> <a href="http://www.github.com/leahjs" target="_blank">www.github.com/leahjs</a></li>
-				<li><strong>LinkedIn:</strong> <a href="http://www.linkedin.com/in/leahsuter" target="_blank">www.linkedin.com/in/leahsuter</a></li>
-			</ul>
-
-		</div>
-		<!-- Column 2 ends ====================================================================== -->
-
-	</div>
-	<!-- About page ends ======================================================================== -->
-
-	<!-- Footer begins ========================================================================== -->
-	<footer class="sixteen columns">
-		<hr />
-		<ul id="footerLinks">
-			<li>&copy; 2017 Leah Suter. All rights reserved.</li>
-			<li><a href="mailto:hey@leahjs.me">hey@leahjs.me</a></li>
-			<li><a href="http://www.twitter.com/leahjs" target="_blank">Twitter</a></li>
-			<li><a href="http://www.github.com/leahjs" target="_blank">Github</a></li>
-			<!--Notice: The "Powered by Type & Grids" link in the footer is required in the Free version. Upgrade to the Pro version if you would like to remove it. (www.typeandgrids.com/pirates) -->
-			<li>Powered by <a href="http://www.typeandgrids.com" target="_blank">Type &amp; Grids</a></li>
-		</ul>
-	</footer>
-	<!-- Footer ends ============================================================================ -->
-
-</div><!-- container -->
-</body>
+    <script src="./index.js"></script>
+  </body>
 </html>
